@@ -7,7 +7,6 @@
 #define NEWLINE '\n'  
 
 enum mode{
-  CALIBRATION,
   STANDBY,
   WAITING,
   MEASURING 
@@ -16,7 +15,8 @@ enum mode{
 struct {
   char operand[4];
   int argument;
-} command;
+} 
+command;
 
 struct {
   unsigned int near = 0;
@@ -25,15 +25,24 @@ struct {
 } 
 threshold;
 
-mode currentMode = CALIBRATION;
+struct {
+  unsigned int times = 10;
+  unsigned int msDelay = 10;
+  unsigned int current = 0;
+} 
+reading;
+
+mode currentMode = STANDBY;
 
 void setup() {
   Serial.begin(9600); 
 }
 
 void loop() {
+  reading.current = sensorAverage();
   if(Serial.available() > 0) {
-    parseCommand(); 
+    parseCommand();
+    interpretCommand();
   }
   delay(100);
 }
@@ -54,6 +63,27 @@ void parseCommand() {
     char arg[3];
     Serial.readBytes(arg, Serial.available());
     command.argument = atoi(arg);
-    Serial.println(command.argument);
   }
 }
+
+void interpretCommand() {
+  if(!strcmp(command.operand, "NER")) {
+    setArgument(&threshold.near);
+    Serial.println(threshold.near);
+  }
+  else if(!strcmp(command.operand, "DST")) {
+    setArgument(&threshold.distant);
+  }
+  else if(!strcmp(command.operand, "TOL")) {
+    if(command.argument == 0) Serial.println("TOL" + threshold.tolerance);
+    else threshold.tolerance = command.argument; 
+  }
+}
+
+void setArgument(unsigned int* argument) {
+  if(command.argument == 0) *argument = reading.current;
+  else *argument = command.argument; 
+}
+
+
+
