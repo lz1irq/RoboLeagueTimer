@@ -1,10 +1,14 @@
 #define SENSOR_PIN A0
 
-#define TIMES 10
-#define DELAY_MS 10
-#define TOLERANCE 10
+#define BEGIN_MEASURING "BMS"
+#define STOP_MEASURING "SMS"
 
-#define NEWLINE '\n'  
+#define THRESHOLD_NEAR "NER"
+#define THRESHOLD_DISTANT "DST"
+#define TOLERANCE "TOL"
+
+#define TIMES "TMS"
+#define DELAY "DLY"
 
 enum mode{
   STANDBY,
@@ -13,7 +17,7 @@ enum mode{
 };
 
 struct {
-  char operand[4];
+  char name[4];
   int argument;
 } 
 command;
@@ -49,41 +53,53 @@ void loop() {
 
 int sensorAverage() {
   int readings = 0;
-  for(int i=0; i<TIMES; i++) {
+  for(int i=0; i<reading.times; i++) {
     readings += analogRead(SENSOR_PIN);
-    delay(DELAY_MS); 
+    delay(reading.msDelay); 
   }
-  return readings/TIMES;
+  return readings/reading.times;
 }
 
 void parseCommand() {
-  Serial.readBytes(command.operand, 3);
-  Serial.println(command.operand);
+  Serial.readBytes(command.name, 3);
   if(Serial.available() >= 3 ) {
     char arg[3];
-    Serial.readBytes(arg, Serial.available());
+    Serial.readBytes(arg, 3);
     command.argument = atoi(arg);
   }
 }
 
 void interpretCommand() {
-  if(!strcmp(command.operand, "NER")) {
-    setArgument(&threshold.near);
-    Serial.println(threshold.near);
+  if(!strcmp(command.name, BEGIN_MEASURING) {
+    currentMode = WAITING; 
   }
-  else if(!strcmp(command.operand, "DST")) {
-    setArgument(&threshold.distant);
+  else if(!strcmp(command, STOP_MEASURING)) {
+    currentMode = STANDBY;
   }
-  else if(!strcmp(command.operand, "TOL")) {
-    if(command.argument == 0) Serial.println("TOL" + threshold.tolerance);
-    else threshold.tolerance = command.argument; 
+  else if(!strcmp(command.name, THRESHOLD_NEAR)) {
+    setAndReport(&threshold.near);
+  }
+  else if(!strcmp(command.name, THRESHOLD_DISTANT)) {
+    setAndReport(&threshold.distant);
+  }
+  else if(!strcmp(command.name, TOLERANCE)) {
+    setAndReport(&threshold.tolerance);
+  }
+  else if(!strcmp(command.name, TIMES)) {
+    setAndReport(&reading.times);
+  } 
+  else if(!strcmp(command.name, DELAY)) {
+    setAndReport(&reading.msDelay);
   }
 }
 
-void setArgument(unsigned int* argument) {
-  if(command.argument == 0) *argument = reading.current;
-  else *argument = command.argument; 
+void setAndReport(unsigned int* argument) {
+  if(command.argument != 0) *argument = command.argument;
+  Serial.print(command.name);
+  Serial.println(*argument);
 }
+
+
 
 
 
