@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -114,6 +114,34 @@
 </package>
 </packages>
 <symbols>
+<symbol name="RN42-XVU">
+<wire x1="0" y1="0" x2="0" y2="27.5" width="0.127" layer="94"/>
+<wire x1="0" y1="0" x2="19" y2="0" width="0.127" layer="94"/>
+<wire x1="19" y1="0" x2="19" y2="27.5" width="0.127" layer="94"/>
+<wire x1="3.5" y1="32.1" x2="15.5" y2="32.1" width="0.127" layer="94"/>
+<wire x1="0" y1="27.5" x2="3.5" y2="32.1" width="0.127" layer="94"/>
+<wire x1="15.5" y1="32.1" x2="19" y2="27.5" width="0.127" layer="94"/>
+<pin name="VDD" x="-0.1" y="25" length="middle" direction="pwr" rot="R180"/>
+<pin name="TXD" x="-0.1" y="22.6" length="middle" direction="out" rot="R180"/>
+<pin name="RXD" x="-0.1" y="20" length="middle" direction="in" rot="R180"/>
+<pin name="GPIO10" x="-0.1" y="17.5" length="middle" rot="R180"/>
+<pin name="!RESET" x="-0.1" y="15.1" length="middle" direction="in" rot="R180"/>
+<pin name="GPIO6" x="-0.1" y="12.6" length="middle" rot="R180"/>
+<pin name="GPIO9" x="-0.1" y="10" length="middle" rot="R180"/>
+<pin name="GPIO4" x="-0.1" y="7.5" length="middle" rot="R180"/>
+<pin name="GPIO11" x="-0.1" y="5.1" length="middle" rot="R180"/>
+<pin name="GND" x="-0.1" y="2.5" length="middle" direction="pwr" rot="R180"/>
+<pin name="GPIO8" x="19.1" y="2.5" length="middle"/>
+<pin name="RTS" x="19.1" y="5" length="middle"/>
+<pin name="GPIO2" x="19.1" y="7.5" length="middle"/>
+<pin name="P$14" x="19.1" y="10" length="middle" direction="nc"/>
+<pin name="GPIO5" x="19.1" y="12.5" length="middle"/>
+<pin name="CTS" x="19.1" y="15" length="middle"/>
+<pin name="GPIO3" x="19.1" y="17.5" length="middle"/>
+<pin name="GPIO7" x="19.1" y="20.1" length="middle"/>
+<pin name="AIO0" x="19.1" y="22.5" length="middle"/>
+<pin name="AIO1" x="19.1" y="25" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>

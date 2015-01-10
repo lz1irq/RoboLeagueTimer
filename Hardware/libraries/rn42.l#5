@@ -89,28 +89,28 @@
 <pad name="P$13" x="5.8" y="1.2" drill="0.8"/>
 <pad name="P$12" x="3.8" y="1.2" drill="0.8"/>
 <pad name="P$11" x="1.8" y="1.2" drill="0.8"/>
-<circle x="26.7" y="13.5" radius="0.14141875" width="0.127" layer="21"/>
-<circle x="26.7" y="13.5" radius="0.640309375" width="0.127" layer="21"/>
-<circle x="26.7" y="13.5" radius="0.921953125" width="0.127" layer="21"/>
-<wire x1="27" y1="12.1" x2="28.1" y2="12.1" width="0.127" layer="21"/>
-<wire x1="28.1" y1="12.1" x2="28.1" y2="12.3" width="0.127" layer="21"/>
-<wire x1="28.1" y1="12.3" x2="28.1" y2="14.7" width="0.127" layer="21"/>
-<wire x1="28.1" y1="14.7" x2="28.1" y2="14.9" width="0.127" layer="21"/>
-<wire x1="28.1" y1="14.9" x2="25.3" y2="14.9" width="0.127" layer="21"/>
-<wire x1="25.3" y1="14.9" x2="25.3" y2="14.7" width="0.127" layer="21"/>
-<wire x1="25.3" y1="14.7" x2="25.3" y2="12.3" width="0.127" layer="21"/>
-<wire x1="25.3" y1="12.3" x2="25.3" y2="12.1" width="0.127" layer="21"/>
-<wire x1="25.3" y1="14.7" x2="25.1" y2="14.7" width="0.127" layer="21"/>
-<wire x1="25.1" y1="14.7" x2="25.1" y2="12.3" width="0.127" layer="21"/>
-<wire x1="25.1" y1="12.3" x2="25.3" y2="12.3" width="0.127" layer="21"/>
-<wire x1="28.1" y1="12.3" x2="28.3" y2="12.3" width="0.127" layer="21"/>
-<wire x1="28.3" y1="12.3" x2="28.3" y2="14.7" width="0.127" layer="21"/>
-<wire x1="28.3" y1="14.7" x2="28.1" y2="14.7" width="0.127" layer="21"/>
-<wire x1="25.3" y1="12.1" x2="26.4" y2="12.1" width="0.127" layer="21"/>
-<wire x1="26.4" y1="12.1" x2="27" y2="12.1" width="0.127" layer="21"/>
-<wire x1="26.4" y1="12.1" x2="26.4" y2="11.9" width="0.127" layer="21"/>
-<wire x1="27" y1="11.9" x2="27" y2="12.1" width="0.127" layer="21"/>
-<wire x1="26.4" y1="11.9" x2="27" y2="11.9" width="0.127" layer="21"/>
+<circle x="26.2" y="12.33" radius="0.14141875" width="0.127" layer="21"/>
+<circle x="26.2" y="12.33" radius="0.640309375" width="0.127" layer="21"/>
+<circle x="26.2" y="12.33" radius="0.921953125" width="0.127" layer="21"/>
+<wire x1="26.5" y1="10.93" x2="27.6" y2="10.93" width="0.127" layer="21"/>
+<wire x1="27.6" y1="10.93" x2="27.6" y2="11.13" width="0.127" layer="21"/>
+<wire x1="27.6" y1="11.13" x2="27.6" y2="13.53" width="0.127" layer="21"/>
+<wire x1="27.6" y1="13.53" x2="27.6" y2="13.73" width="0.127" layer="21"/>
+<wire x1="27.6" y1="13.73" x2="24.8" y2="13.73" width="0.127" layer="21"/>
+<wire x1="24.8" y1="13.73" x2="24.8" y2="13.53" width="0.127" layer="21"/>
+<wire x1="24.8" y1="13.53" x2="24.8" y2="11.13" width="0.127" layer="21"/>
+<wire x1="24.8" y1="11.13" x2="24.8" y2="10.93" width="0.127" layer="21"/>
+<wire x1="24.8" y1="13.53" x2="24.6" y2="13.53" width="0.127" layer="21"/>
+<wire x1="24.6" y1="13.53" x2="24.6" y2="11.13" width="0.127" layer="21"/>
+<wire x1="24.6" y1="11.13" x2="24.8" y2="11.13" width="0.127" layer="21"/>
+<wire x1="27.6" y1="11.13" x2="27.8" y2="11.13" width="0.127" layer="21"/>
+<wire x1="27.8" y1="11.13" x2="27.8" y2="13.53" width="0.127" layer="21"/>
+<wire x1="27.8" y1="13.53" x2="27.6" y2="13.53" width="0.127" layer="21"/>
+<wire x1="24.8" y1="10.93" x2="25.9" y2="10.93" width="0.127" layer="21"/>
+<wire x1="25.9" y1="10.93" x2="26.5" y2="10.93" width="0.127" layer="21"/>
+<wire x1="25.9" y1="10.93" x2="25.9" y2="10.73" width="0.127" layer="21"/>
+<wire x1="26.5" y1="10.73" x2="26.5" y2="10.93" width="0.127" layer="21"/>
+<wire x1="25.9" y1="10.73" x2="26.5" y2="10.73" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -121,29 +121,64 @@
 <wire x1="3.5" y1="32.1" x2="15.5" y2="32.1" width="0.127" layer="94"/>
 <wire x1="0" y1="27.5" x2="3.5" y2="32.1" width="0.127" layer="94"/>
 <wire x1="15.5" y1="32.1" x2="19" y2="27.5" width="0.127" layer="94"/>
-<pin name="P$1" x="-0.1" y="25" length="middle" rot="R180"/>
-<pin name="P$2" x="-0.1" y="22.6" length="middle" rot="R180"/>
-<pin name="P$3" x="-0.1" y="20" length="middle" rot="R180"/>
-<pin name="P$4" x="-0.1" y="17.5" length="middle" rot="R180"/>
-<pin name="P$5" x="-0.1" y="15.1" length="middle" rot="R180"/>
-<pin name="P$6" x="-0.1" y="12.6" length="middle" rot="R180"/>
-<pin name="P$7" x="-0.1" y="10" length="middle" rot="R180"/>
-<pin name="P$8" x="-0.1" y="7.5" length="middle" rot="R180"/>
-<pin name="P$9" x="-0.1" y="5.1" length="middle" rot="R180"/>
-<pin name="P$10" x="-0.1" y="2.5" length="middle" rot="R180"/>
-<pin name="P$11" x="19.1" y="2.5" length="middle"/>
-<pin name="P$12" x="19.1" y="5" length="middle"/>
-<pin name="P$13" x="19.1" y="7.5" length="middle"/>
-<pin name="P$14" x="19.1" y="10" length="middle"/>
-<pin name="P$15" x="19.1" y="12.5" length="middle"/>
-<pin name="P$16" x="19.1" y="15" length="middle"/>
-<pin name="P$17" x="19.1" y="17.5" length="middle"/>
-<pin name="P$18" x="19.1" y="20.1" length="middle"/>
-<pin name="P$19" x="19.1" y="22.5" length="middle"/>
-<pin name="P$20" x="19.1" y="25" length="middle"/>
+<pin name="VDD" x="-0.1" y="25" length="middle" direction="pwr" rot="R180"/>
+<pin name="TXD" x="-0.1" y="22.6" length="middle" direction="out" rot="R180"/>
+<pin name="RXD" x="-0.1" y="20" length="middle" direction="in" rot="R180"/>
+<pin name="GPIO10" x="-0.1" y="17.5" length="middle" rot="R180"/>
+<pin name="!RESET" x="-0.1" y="15.1" length="middle" direction="in" rot="R180"/>
+<pin name="GPIO6" x="-0.1" y="12.6" length="middle" rot="R180"/>
+<pin name="GPIO9" x="-0.1" y="10" length="middle" rot="R180"/>
+<pin name="GPIO4" x="-0.1" y="7.5" length="middle" rot="R180"/>
+<pin name="GPIO11" x="-0.1" y="5.1" length="middle" rot="R180"/>
+<pin name="GND" x="-0.1" y="2.5" length="middle" direction="pwr" rot="R180"/>
+<pin name="GPIO8" x="19.1" y="2.5" length="middle"/>
+<pin name="RTS" x="19.1" y="5" length="middle"/>
+<pin name="GPIO2" x="19.1" y="7.5" length="middle"/>
+<pin name="P$14" x="19.1" y="10" length="middle" direction="nc"/>
+<pin name="GPIO5" x="19.1" y="12.5" length="middle"/>
+<pin name="CTS" x="19.1" y="15" length="middle"/>
+<pin name="GPIO3" x="19.1" y="17.5" length="middle"/>
+<pin name="GPIO7" x="19.1" y="20.1" length="middle"/>
+<pin name="AIO0" x="19.1" y="22.5" length="middle"/>
+<pin name="AIO1" x="19.1" y="25" length="middle"/>
+<text x="5" y="30.3" size="1.27" layer="94">RN-42XVU</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="RN-42XVU">
+<gates>
+<gate name="G$1" symbol="RN42-XVU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2X10">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="P$5"/>
+<connect gate="G$1" pin="AIO0" pad="P$19"/>
+<connect gate="G$1" pin="AIO1" pad="P$20"/>
+<connect gate="G$1" pin="CTS" pad="P$16"/>
+<connect gate="G$1" pin="GND" pad="P$10"/>
+<connect gate="G$1" pin="GPIO10" pad="P$4"/>
+<connect gate="G$1" pin="GPIO11" pad="P$9"/>
+<connect gate="G$1" pin="GPIO2" pad="P$13"/>
+<connect gate="G$1" pin="GPIO3" pad="P$17"/>
+<connect gate="G$1" pin="GPIO4" pad="P$8"/>
+<connect gate="G$1" pin="GPIO5" pad="P$15"/>
+<connect gate="G$1" pin="GPIO6" pad="P$6"/>
+<connect gate="G$1" pin="GPIO7" pad="P$18"/>
+<connect gate="G$1" pin="GPIO8" pad="P$11"/>
+<connect gate="G$1" pin="GPIO9" pad="P$7"/>
+<connect gate="G$1" pin="P$14" pad="P$14"/>
+<connect gate="G$1" pin="RTS" pad="P$12"/>
+<connect gate="G$1" pin="RXD" pad="P$3"/>
+<connect gate="G$1" pin="TXD" pad="P$2"/>
+<connect gate="G$1" pin="VDD" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
