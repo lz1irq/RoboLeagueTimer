@@ -79,16 +79,16 @@
 <pad name="P$8" x="5.8" y="23.2" drill="0.8"/>
 <pad name="P$9" x="3.8" y="23.2" drill="0.8"/>
 <pad name="P$10" x="1.8" y="23.2" drill="0.8"/>
-<pad name="P$11" x="19.8" y="1.2" drill="0.8"/>
-<pad name="P$12" x="17.8" y="1.2" drill="0.8"/>
-<pad name="P$13" x="15.8" y="1.2" drill="0.8"/>
-<pad name="P$14" x="13.8" y="1.2" drill="0.8"/>
-<pad name="P$15" x="11.8" y="1.2" drill="0.8"/>
-<pad name="P$16" x="9.8" y="1.2" drill="0.8"/>
-<pad name="P$17" x="7.8" y="1.2" drill="0.8"/>
-<pad name="P$18" x="5.8" y="1.2" drill="0.8"/>
-<pad name="P$19" x="3.8" y="1.2" drill="0.8"/>
-<pad name="P$20" x="1.8" y="1.2" drill="0.8"/>
+<pad name="P$20" x="19.8" y="1.2" drill="0.8"/>
+<pad name="P$19" x="17.8" y="1.2" drill="0.8"/>
+<pad name="P$18" x="15.8" y="1.2" drill="0.8"/>
+<pad name="P$17" x="13.8" y="1.2" drill="0.8"/>
+<pad name="P$16" x="11.8" y="1.2" drill="0.8"/>
+<pad name="P$15" x="9.8" y="1.2" drill="0.8"/>
+<pad name="P$14" x="7.8" y="1.2" drill="0.8"/>
+<pad name="P$13" x="5.8" y="1.2" drill="0.8"/>
+<pad name="P$12" x="3.8" y="1.2" drill="0.8"/>
+<pad name="P$11" x="1.8" y="1.2" drill="0.8"/>
 <circle x="26.7" y="13.5" radius="0.14141875" width="0.127" layer="21"/>
 <circle x="26.7" y="13.5" radius="0.640309375" width="0.127" layer="21"/>
 <circle x="26.7" y="13.5" radius="0.921953125" width="0.127" layer="21"/>

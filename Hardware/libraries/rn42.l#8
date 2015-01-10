@@ -64,20 +64,6 @@
 <wire x1="23" y1="0" x2="29" y2="9.6" width="0.127" layer="21"/>
 <wire x1="23" y1="24.4" x2="29" y2="14.8" width="0.127" layer="21"/>
 <wire x1="29" y1="14.8" x2="29" y2="9.6" width="0.127" layer="21"/>
-<wire x1="3.8" y1="5.6" x2="3.8" y2="18.8" width="0.127" layer="21"/>
-<wire x1="3.8" y1="5.6" x2="23" y2="5.6" width="0.127" layer="21"/>
-<wire x1="3.8" y1="18.8" x2="23" y2="18.8" width="0.127" layer="21"/>
-<wire x1="23" y1="5.6" x2="23" y2="18.8" width="0.127" layer="21"/>
-<text x="8.9" y="11.55" size="1.27" layer="21">RN-42XVU</text>
-<pad name="P$1" x="19.8" y="23.2" drill="0.8" shape="square"/>
-<pad name="P$2" x="17.8" y="23.2" drill="0.8"/>
-<pad name="P$3" x="15.8" y="23.2" drill="0.8"/>
-<pad name="P$4" x="13.8" y="23.2" drill="0.8"/>
-<pad name="P$5" x="11.8" y="23.2" drill="0.8"/>
-<pad name="P$6" x="9.8" y="23.2" drill="0.8"/>
-<pad name="P$7" x="7.8" y="23.2" drill="0.8"/>
-<pad name="P$8" x="5.8" y="23.2" drill="0.8"/>
-<pad name="P$9" x="3.8" y="23.2" drill="0.8"/>
 </package>
 </packages>
 <symbols>

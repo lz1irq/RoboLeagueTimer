@@ -78,6 +78,7 @@
 <pad name="P$7" x="7.8" y="23.2" drill="0.8"/>
 <pad name="P$8" x="5.8" y="23.2" drill="0.8"/>
 <pad name="P$9" x="3.8" y="23.2" drill="0.8"/>
+<pad name="P$10" x="1.8" y="23.2" drill="0.8"/>
 </package>
 </packages>
 <symbols>
