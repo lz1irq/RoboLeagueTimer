@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -68,9 +68,60 @@
 <wire x1="3.8" y1="5.6" x2="23" y2="5.6" width="0.127" layer="21"/>
 <wire x1="3.8" y1="18.8" x2="23" y2="18.8" width="0.127" layer="21"/>
 <wire x1="23" y1="5.6" x2="23" y2="18.8" width="0.127" layer="21"/>
+<text x="8.9" y="11.55" size="1.27" layer="21">RN-42XVU</text>
+<pad name="P$1" x="19.8" y="23.2" drill="0.8" shape="square"/>
+<pad name="P$2" x="17.8" y="23.2" drill="0.8"/>
+<pad name="P$3" x="15.8" y="23.2" drill="0.8"/>
+<pad name="P$4" x="13.8" y="23.2" drill="0.8"/>
+<pad name="P$5" x="11.8" y="23.2" drill="0.8"/>
+<pad name="P$6" x="9.8" y="23.2" drill="0.8"/>
+<pad name="P$7" x="7.8" y="23.2" drill="0.8"/>
+<pad name="P$8" x="5.8" y="23.2" drill="0.8"/>
+<pad name="P$9" x="3.8" y="23.2" drill="0.8"/>
+<pad name="P$10" x="1.8" y="23.2" drill="0.8"/>
+<pad name="P$20" x="19.8" y="1.2" drill="0.8"/>
+<pad name="P$19" x="17.8" y="1.2" drill="0.8"/>
+<pad name="P$18" x="15.8" y="1.2" drill="0.8"/>
+<pad name="P$17" x="13.8" y="1.2" drill="0.8"/>
+<pad name="P$16" x="11.8" y="1.2" drill="0.8"/>
+<pad name="P$15" x="9.8" y="1.2" drill="0.8"/>
+<pad name="P$14" x="7.8" y="1.2" drill="0.8"/>
+<pad name="P$13" x="5.8" y="1.2" drill="0.8"/>
+<pad name="P$12" x="3.8" y="1.2" drill="0.8"/>
+<pad name="P$11" x="1.8" y="1.2" drill="0.8"/>
+<circle x="26.7" y="13.5" radius="0.14141875" width="0.127" layer="21"/>
+<circle x="26.7" y="13.5" radius="0.640309375" width="0.127" layer="21"/>
+<circle x="26.7" y="13.5" radius="0.921953125" width="0.127" layer="21"/>
+<wire x1="27" y1="12.1" x2="28.1" y2="12.1" width="0.127" layer="21"/>
+<wire x1="28.1" y1="12.1" x2="28.1" y2="12.3" width="0.127" layer="21"/>
+<wire x1="28.1" y1="12.3" x2="28.1" y2="14.7" width="0.127" layer="21"/>
+<wire x1="28.1" y1="14.7" x2="28.1" y2="14.9" width="0.127" layer="21"/>
+<wire x1="28.1" y1="14.9" x2="25.3" y2="14.9" width="0.127" layer="21"/>
+<wire x1="25.3" y1="14.9" x2="25.3" y2="14.7" width="0.127" layer="21"/>
+<wire x1="25.3" y1="14.7" x2="25.3" y2="12.3" width="0.127" layer="21"/>
+<wire x1="25.3" y1="12.3" x2="25.3" y2="12.1" width="0.127" layer="21"/>
+<wire x1="25.3" y1="14.7" x2="25.1" y2="14.7" width="0.127" layer="21"/>
+<wire x1="25.1" y1="14.7" x2="25.1" y2="12.3" width="0.127" layer="21"/>
+<wire x1="25.1" y1="12.3" x2="25.3" y2="12.3" width="0.127" layer="21"/>
+<wire x1="28.1" y1="12.3" x2="28.3" y2="12.3" width="0.127" layer="21"/>
+<wire x1="28.3" y1="12.3" x2="28.3" y2="14.7" width="0.127" layer="21"/>
+<wire x1="28.3" y1="14.7" x2="28.1" y2="14.7" width="0.127" layer="21"/>
+<wire x1="25.3" y1="12.1" x2="26.4" y2="12.1" width="0.127" layer="21"/>
+<wire x1="26.4" y1="12.1" x2="27" y2="12.1" width="0.127" layer="21"/>
+<wire x1="26.4" y1="12.1" x2="26.4" y2="11.9" width="0.127" layer="21"/>
+<wire x1="27" y1="11.9" x2="27" y2="12.1" width="0.127" layer="21"/>
+<wire x1="26.4" y1="11.9" x2="27" y2="11.9" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
+<symbol name="RN42-XVU">
+<wire x1="0" y1="0" x2="0" y2="27.5" width="0.127" layer="94"/>
+<wire x1="0" y1="0" x2="19" y2="0" width="0.127" layer="94"/>
+<wire x1="19" y1="0" x2="19" y2="27.5" width="0.127" layer="94"/>
+<wire x1="3.5" y1="32.1" x2="15.5" y2="32.1" width="0.127" layer="94"/>
+<wire x1="0" y1="27.5" x2="3.5" y2="32.1" width="0.127" layer="94"/>
+<wire x1="15.5" y1="32.1" x2="19" y2="27.5" width="0.127" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 </devicesets>
